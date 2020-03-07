@@ -1,0 +1,23 @@
+#aap4{
+    border:  1px solid pink;
+}
+
+#app4 .circle{
+    border: 1px solid greenyellow;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+#app4 .circle.active{
+    animation: change 1s infinite alternate linear;
+}
+
+@keyframes change{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: black;
+    }
+}
